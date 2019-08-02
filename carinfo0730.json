@@ -1,0 +1,10 @@
+﻿{
+"envData":{"rh":2.12,"ap":"32.6","et":"1.03"},     
+"equipmentData":{"faData":{"rev":5600,"smokeKLimit":5,"smokeAvg":3,"smokeK3":3,"rateRev":6000,"smokeK2":3,"smokeK1":2},"lugdownData":{"rev100":2340,"rateRevUp":4000,"smokeLimit":7,"nox":324,"smoke100":5,"rateRevDown":2000,"maxPower":20,"maxPowerLimit":40,"smoke80":3,"noxLimit":235},"sdsData":{"hlco":4,"lrco":3,"reac":8,"lrhc":346,"hrhc":236,"hrco":4,"leac":3,"llhc":265,"llco":4,"hlhc":345},"vmassData":{"vlnox":165,"vrhc":165,"vlhcnox":143,"vlco":143,"vlhc":154,"vrco":165,"vrhcnox":143,"vrnox":345},"asmData":{"alco2540":2,"alco5025":3,"arco5025":3,"arco2540":3,"alhc2540":1234,"arhc2540":234,"alhc5025":145,"alnox5025":234,"arhc5025":145,"arnox2540":345,"arnox5025":145,"alnox2540":123}},
+"processData":{"obd":12,"odo":34,"moduleData":[{"calID":"CALID","cvn":"CVN","moduleID":"ModuleID"},{"calID":"CALID2","cvn":"CVN2","moduleID":"ModuleID2"}]},
+"resultData":{"analyModel":"AnalyModel","dynoModel":"DynoModel","analyManuf":"AnalyManuf","analyName":"AnalyName","dynoManuf":"DynoManuf","analyDate":"20180207"},
+"testData":{"opass":1,"result":1,"testNo":"FEWEFWE12345","epass":1,"otestdate":"20180207","apass":1,"testType":1,"testDate":"20180207"},
+"vehicleData":{"scdate":"20180207","fdjh":" SH3656MS ","fdjsccdz":"XX省XX市XX县XX街","fdjsb":"新柴","vehicleModel":"SX0034PG1","sccdz":" XX省XX市XX县XX街","vin":"LJFIUFSI23H012345","xxgkbh":" CN QQ G5 Z2 0179000011 000001 ","sb":"XX牌"},
+"sign": "9dc60e46437f49b1121748870b281f0c59f617f3",
+"token": "4cd099fd-b9c7-4394-9d8c-d50089f5b95f"
+}

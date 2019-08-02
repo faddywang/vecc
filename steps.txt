@@ -1,0 +1,40 @@
+Rest APIs:  
+1. login
+   URL£º https://xcxx.vecc.org.cn//w/WSNewCar/login 
+   Desc£ºTo get the token
+   Protocol£ºHTTPS
+   Http method£ºpost
+   Request £ºapplication/json
+   Message body(message sample):
+     {
+ "username":"dmllt",
+ "password":"52A454"
+     }
+   Response£ºapplication/json
+   
+2. upload data(post the json data)
+   URL£º https://xcxx.vecc.org.cn/w/WSNewCar/uploadofflinetest
+   Desc£ºPost car data to VECC
+   Protocol£ºHTTPS
+   Http method£ºpost
+   Request £ºapplication/json
+   Message body(message sample):
+     refers to carinfo0729.json file.
+	 Note pls: you need to append the token and the generated sign at the end of this message.
+   Response£ºapplication/json
+   
+ 
+ VECC suggests to use json-lib version 2.3. If you are using maven, you have to add dependency like below, otherwise may errored. 
+ <dependency>
+    <groupId>net.sf.json-lib</groupId>
+    <artifactId>json-lib</artifactId>
+    <version>2.3</version>
+   <classifier>jdk15</classifier>
+</dependency>
+
+I also used Gson, it is also working fine.
+<dependency>
+   <groupId>com.google.code.gson</groupId>
+   <artifactId>gson</artifactId>
+   <version>2.2.4</version>
+</dependency>
