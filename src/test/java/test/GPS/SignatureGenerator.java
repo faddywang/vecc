@@ -19,7 +19,7 @@ public class SignatureGenerator {
 	public static void main(String[] args) {
 
 		String readjson =readJsonFile("D:\\workplace\\GPS\\carinfo0729.json");
-		String token="2d6a8b0b-8ede-41f3-9edd-4b7df7bd4d8f";
+		String token="313effd2-86e7-49dd-9075-766f64649adc";
 		String envData = getJsonValue(readjson,"envData");
 		System.out.println(envData);
 		String equipmentData= getJsonValue(readjson,"equipmentData");
